@@ -20,7 +20,7 @@ ul, li{
   margin: 0;
   list-style: none;
   padding: 0;
-  
+  color: black;
 }
 
 a {
@@ -50,7 +50,7 @@ input {
   display: block;
   margin: 10px auto;
   padding: 18px;
-  border-style: outset;
+  border-style: none;
   border-radius: 30px;
   font-size: 16px;
   text-align: center;
@@ -120,6 +120,7 @@ p {
   line-height: 2
 
 }
+
  
   
 /* ---- layout ---- */
@@ -159,3 +160,10 @@ p {
 
 
 /* ---- section ---- */
+.subscribe input {
+  border: 1px solid #ccc;
+}
+
+footer a {
+  color: black;
+}
