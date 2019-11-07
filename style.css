@@ -16,13 +16,26 @@ h1 {
   margin: 0;
 }
 
+
+
 ul, li{
   margin: 0;
   list-style: none;
   padding: 0;
   color: black;
 }
+container.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10%;
+}
 
+container.lastlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 a {
   text-decoration: none;
   color: white;
@@ -44,6 +57,7 @@ header {
 .banner {
   background-color: #F8765E;
   padding-bottom: 50px;
+  padding: 15%;
 }
 
 input {
